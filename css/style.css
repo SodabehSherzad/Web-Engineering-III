@@ -1,0 +1,41 @@
+h1 {
+	text-align: center;
+}
+form {
+	width: 85%;
+	margin: 100px auto;
+	text-align: center;
+}
+
+form>input[type=text] {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+form>label {
+	font-size: 20px;
+}
+
+form>select{
+	width: 15%;
+	padding: 8px 20px;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+form>input[type=submit]{
+	width: 10%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	background-color: #005266;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	box-sizing: border-box;
+}
